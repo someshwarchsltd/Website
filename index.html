@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Someshwar CHS | Redevelopment Portal</title>
+    <!-- Tailwind CSS for Styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo Area -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-md">
+                        <!-- Placeholder for Logo -->
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-xl text-slate-900 tracking-tight">Someshwar CHS</h1>
+                        <p class="text-xs text-slate-500 font-medium tracking-wider uppercase">Redevelopment Portal</p>
+                    </div>
+                </div>
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-blue-600 font-semibold border-b-2 border-blue-600 pb-1">Home</a>
+                    <a href="#tracker" class="text-slate-600 hover:text-blue-600 transition-colors">Progress</a>
+                    <a href="#documents" class="text-slate-600 hover:text-blue-600 transition-colors">Resources</a>
+                    <a href="#contact" class="text-slate-600 hover:text-blue-600 transition-colors">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white py-20 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-blue-800 bg-opacity-50 text-blue-100 text-sm font-semibold mb-6 border border-blue-400">
+                Reg. No: [Insert Registration Number Here]
+            </span>
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Welcome to the Official Transparency Portal</h2>
+            <p class="text-xl md:text-2xl font-light mb-4 max-w-3xl mx-auto">
+                Someshwar Co-Operative Housing Society Ltd.
+            </p>
+            <p class="text-md text-blue-100 mb-10 max-w-2xl mx-auto">
+                <i class="fa-solid fa-location-dot mr-2"></i> [Insert Full Society Address Here]
+            </p>
+            <p class="text-lg text-blue-50 mb-10 max-w-4xl mx-auto bg-white/10 p-6 rounded-lg backdrop-blur-sm border border-white/20 shadow-lg">
+                This website is established to keep all members fully informed with legal notifications, PMC updates, notices, resolutions, and structural annexures during our society's redevelopment process. We are committed to a transparent, democratic, and systematic approach aligned with the Section 79A of the MCS Act.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#documents" class="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors shadow-lg">View Documents</a>
+                <a href="#tracker" class="border border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition-colors">Track Progress</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redevelopment Tracker Section -->
+    <section id="tracker" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-slate-900 mb-4">Redevelopment Activity Tracker</h3>
+                <p class="text-slate-600 max-w-2xl mx-auto">Real-time milestones of the Someshwar CHS redevelopment process.</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto relative">
+                <!-- Vertical Line -->
+                <div class="absolute left-4 md:left-1/2 md:-ml-0.5 w-1 h-full bg-slate-200 rounded-lg"></div>
+
+                <!-- Step 1: Completed -->
+                <div class="relative flex items-center justify-between md:justify-normal w-full mb-12">
+                    <div class="hidden md:block w-1/2 pr-8 text-right">
+                        <h4 class="text-xl font-bold text-slate-800">Society Initiation</h4>
+                        <p class="text-slate-500 mt-2">Member Consent & Structural Audit Initiated.</p>
+                    </div>
+                    <div class="absolute left-0 md:left-1/2 -ml-3 md:-ml-4 w-8 h-8 rounded-full bg-green-500 border-4 border-white flex items-center justify-center shadow-md">
+                        <i class="fa-solid fa-check text-white text-xs"></i>
+                    </div>
+                    <div class="pl-12 md:pl-8 md:w-1/2">
+                        <span class="bg-green-100 text-green-700 text-xs font-bold px-2 py-1 rounded">Completed</span>
+                        <div class="md:hidden mt-2">
+                            <h4 class="text-xl font-bold text-slate-800">Society Initiation</h4>
+                            <p class="text-slate-500 mt-1">Member Consent & Structural Audit Initiated.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2: Active (PMC Appointment) -->
+                <div class="relative flex items-center justify-between md:justify-normal w-full mb-12">
+                    <div class="pl-12 md:pl-0 md:pr-8 md:w-1/2 md:text-right md:order-1 order-2">
+                        <span class="bg-blue-100 text-blue-700 text-xs font-bold px-2 py-1 rounded animate-pulse">Active Phase</span>
+                        <div class="md:hidden mt-2">
+                            <h4 class="text-xl font-bold text-blue-600">PMC Appointment</h4>
+                            <p class="text-slate-500 mt-1">Selecting & Appointing Project Management Consultant.</p>
+                        </div>
+                    </div>
+                    <div class="absolute left-0 md:left-1/2 -ml-3 md:-ml-4 w-8 h-8 rounded-full bg-blue-600 border-4 border-white shadow-md z-10 flex items-center justify-center">
+                        <div class="w-3 h-3 bg-white rounded-full"></div>
+                    </div>
+                    <div class="hidden md:block md:w-1/2 md:pl-8 md:order-3">
+                        <h4 class="text-xl font-bold text-blue-600">PMC Appointment</h4>
+                        <p class="text-slate-500 mt-2">Selecting & Appointing Project Management Consultant.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3: Upcoming -->
+                <div class="relative flex items-center justify-between md:justify-normal w-full">
+                    <div class="hidden md:block w-1/2 pr-8 text-right">
+                        <h4 class="text-xl font-bold text-slate-400">Developer Selection</h4>
+                        <p class="text-slate-400 mt-2">Tendering & Selecting Builder Partner.</p>
+                    </div>
+                    <div class="absolute left-0 md:left-1/2 -ml-3 md:-ml-4 w-8 h-8 rounded-full bg-slate-300 border-4 border-white shadow-sm z-10"></div>
+                    <div class="pl-12 md:pl-8 md:w-1/2">
+                        <span class="bg-slate-100 text-slate-500 text-xs font-bold px-2 py-1 rounded">Upcoming</span>
+                        <div class="md:hidden mt-2">
+                            <h4 class="text-xl font-bold text-slate-400">Developer Selection</h4>
+                            <p class="text-slate-400 mt-1">Tendering & Selecting Builder Partner.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources / Document Portal -->
+    <section id="documents" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-slate-900 mb-4">Transparency Document Portal</h3>
+                <p class="text-slate-600 max-w-2xl mx-auto">Access and download official society notices, resolutions, and reports.</p>
+            </div>
+
+            <!-- Documents Table -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-slate-200">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-slate-50 border-b border-slate-200">
+                                <th class="p-4 font-semibold text-slate-700">Document Title</th>
+                                <th class="p-4 font-semibold text-slate-700">Category</th>
+                                <th class="p-4 font-semibold text-slate-700">Format</th>
+                                <th class="p-4 font-semibold text-slate-700 text-right">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <!-- 1st SGM Notice -->
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="p-4">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fa-solid fa-file-pdf text-red-500 text-xl"></i>
+                                        <span class="font-medium text-slate-800">1st SGM Notice</span>
+                                    </div>
+                                </td>
+                                <td class="p-4 text-slate-600">SGM</td>
+                                <td class="p-4 text-slate-600">PDF File</td>
+                                <td class="p-4 text-right">
+                                    <a href="#" class="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors text-sm font-medium">
+                                        <i class="fa-solid fa-download mr-2"></i> Download
+                                    </a>
+                                </td>
+                            </tr>
+                            
+                            <!-- 2nd SGM Minutes -->
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="p-4">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fa-solid fa-file-pdf text-red-500 text-xl"></i>
+                                        <span class="font-medium text-slate-800">2nd SGM Minutes of Meeting</span>
+                                    </div>
+                                </td>
+                                <td class="p-4 text-slate-600">SGM</td>
+                                <td class="p-4 text-slate-600">PDF File</td>
+                                <td class="p-4 text-right">
+                                    <a href="#" class="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors text-sm font-medium">
+                                        <i class="fa-solid fa-download mr-2"></i> Download
+                                    </a>
+                                </td>
+                            </tr>
+                            
+                            <!-- Placeholder for future document (PMC Tender) -->
+                            <tr class="hover:bg-slate-50 transition-colors opacity-60">
+                                <td class="p-4">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fa-solid fa-clock text-slate-400 text-xl"></i>
+                                        <span class="font-medium text-slate-500">PMC Tender Document (Upcoming)</span>
+                                    </div>
+                                </td>
+                                <td class="p-4 text-slate-500">PMC</td>
+                                <td class="p-4 text-slate-500">-</td>
+                                <td class="p-4 text-right">
+                                    <span class="inline-flex items-center px-4 py-2 bg-slate-100 text-slate-400 rounded text-sm font-medium cursor-not-allowed">
+                                        Pending
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-slate-900 text-slate-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
+                            <i class="fa-solid fa-building text-sm"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-white">Someshwar CHS</h4>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-4">
+                        Official transparency portal for Someshwar Co-operative Housing Society. Upholding democratic values and transparency in the redevelopment process.
+                    </p>
+                    <p class="text-xs text-slate-400">
+                        Registration No: [Insert Reg No]
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">Society Office</h4>
+                    <ul class="space-y-3 text-sm text-slate-400">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-location-dot mt-1 mr-3 text-blue-500"></i>
+                            <span>[Insert Full Address Line 1]<br>[Insert Address Line 2 / City / Pincode]</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-solid fa-envelope mr-3 text-blue-500"></i>
+                            <a href="mailto:committee@someshwarchs.com" class="hover:text-white transition-colors">committee@someshwarchs.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">Important Guidelines</h4>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        In accordance with Section 79A guidelines of the Maharashtra Co-operative Societies Act, our society management is dedicated to upholding the highest levels of transparency.
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+                <p>&copy; 2026 Someshwar Co-Operative Housing Society Ltd. All rights reserved.</p>
+                <p class="mt-2 md:mt-0 text-slate-500">Designed for Society Transparency</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
